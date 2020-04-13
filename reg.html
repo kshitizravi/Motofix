@@ -1,0 +1,113 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<img src="motofix.png" alt="logo" width="140">
+<h1 align="center">MOTOFIX</h1>
+</head>
+<body bgcolor="white">
+<form action="register.php" name="UserRegistration" method="POST">
+
+<table cellpadding="6" width="60%" bgcolor="grey" align="center"
+cellspacing="6">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>User Registration Form</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type=text name=textnames id="textname" size="30" placeholder="First Middle Last"></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><input type="text" name="personaladdress"
+id="personaladdress" size="30" placeholder="Permanent Address"></td>
+</tr>
+
+<tr>
+<td>Sex</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><select name="City">
+<option value="-1" selected>SELECT</option>
+<option value="New Delhi">NEW DELHI</option>
+<option value="Mumbai">MUMBAI</option>
+<option value="Goa">GOA</option>
+<option value="Pune">PUNE</option>
+<option value="Sangli">SANGLI</option>
+<option value="Kolhapur">KOLHAPUR</option>
+<option value="Nagpur">NAGPUR</option>
+<option value="Nashik">NASHIK</option>
+<option value="Pimpri-Chinchwad">PIMPRI-CHINCHWAD</option>
+<option value="Aurangabad">AURANGABAD</option>
+<option value="Others">OTHERS</option>
+</select></td>
+</tr>
+
+<tr>
+<td>State</td>
+<td><select Name="State">
+<option value="-1" selected>SELECT</option>
+<option value="Andhra Pradesh">ANDHRA PRADESH</option>
+<option value="Assam">ASSAM</option>
+<option value="Bihar">BIHAR</option>
+<option value="Chattisgarh">CHATTISGARH</option>
+<option value="Delhi">DELHI</option>
+<option value="Goa">GOA</option>
+<option value="Haryana">HARYANA</option>
+<option value="Himachal Pradesh">HIMACHAL PRADESH</option>
+<option value="Jammu And Kashmir">JAMMU AND KASHMIR</option>
+<option value="karnataka">KARNATAKA</option>
+<option value="Kerela">KERELA</option>
+<option value="Madhya Pradesh">MADHYA PRADESH</option>
+<option value="Maharashtra">MAHARASHTRA</option>
+<option value="Orrisa">ORRISA</option>
+<option value="Punjab">PUNJAB</option>
+<option value="Tamil Nadu">TAMIL NADU</option>
+<option value="Telangana">TELANGANA</option>
+<option value="Uttar Pradesh">UTTAR PRADESH</option>
+<option value="Uttrakhand">UTTRAKHAND</option>
+<option value="West Bengal">WEST BENGAL</option>
+<option value="Others">OTHERS</option>
+</select></td>
+</tr>
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30" placeholder="PinCode"></td>
+
+</tr>
+<tr>
+<td>Email Id</td>
+<td><input type="text" name="emailid" id="emailid" size="30" placeholder="Email Id"></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="pass" id="passwordid" size="30" placeholder="Password"></td>
+</tr>
+<tr>
+<td>Date of Birth</td>
+<td><input type="text" name="dob" id="dob" size="30" placeholder="Date Of Birth"></td>
+</tr>
+
+<tr>
+<td>Contact No</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30" placeholder="Mobile Number"></td>
+</tr>
+<tr>
+	<td><input type="checkbox" name="Terms And Conditions" id="TAC" value="Bike">I agree to the Terms and Conditions<br></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" name="submit" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

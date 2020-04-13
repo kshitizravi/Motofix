@@ -1,0 +1,9 @@
+body{
+    background-color:ghostwhite;
+    background-image: url(wheels1.jpg);
+    background-size: cover;
+}
+p{
+   font-size: 33px;
+   font-family:"Times New Roman",Georgia,Serif;
+}
